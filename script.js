@@ -9,11 +9,8 @@
 //     rightnav.classList.toggle('v-class')
 // })
 
-
 const toggleButton = document.getElementsByClassName('tb')[0]
 const navlist = document.getElementsByClassName('navlist')[0]
-
-
 toggleButton.addEventListener('click', () => {
     navlist.classList.toggle('active')
 })
