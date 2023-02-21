@@ -261,14 +261,14 @@
 .section2 {
     flex-direction: row-reverse;
 }
-
+/* 
 .burger {
     display: none;
     position: absolute;
     cursor: pointer;
     right: 5%;
     top: 15px;
-}
+} */
 
 .line {
     width: 34px;
@@ -277,7 +277,7 @@
     margin: 4px 4px;
 }
 
-@media only screen and (max-width: 1195px) {
+/* @media only screen and (max-width: 1195px) {
     .nav-list {
         flex-direction: column;
 
@@ -395,3 +395,4 @@ li{
 
     }
 }
+ */
