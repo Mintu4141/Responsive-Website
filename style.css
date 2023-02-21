@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.nav {
+/* .nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,6 @@
 
 .nav-list {
     width: 50%;
-    /* background-color: rgb(34, 34, 61); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,8 +45,7 @@
 
 .rightnav {
     margin: 16px;
-    width: 50%;
-    /* background-color: rgb(34, 34, 61); */
+    width: 50%:
     text-align: right;
 }
 
@@ -89,6 +87,96 @@
     color: black;
     background-color: rgb(253, 251, 250);
     border: 2px solid white;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+
+}
+
+.brandname{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navlist ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 1rem;
+    display: block;
+}
+
+.navlist li a:hover {
+    color: white;
+    background-color: #4e4949;
+}
+
+.tb{
+    position: absolute;
+    display: none;
+    justify-content: space-between;
+    top: .75rem;
+    right: 1rem;
+    flex-direction: column;
+    width: 31px;
+    height: 21px;
+
+}
+
+.tb .bar{
+     height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media (max-width:400px){
+    .tb{
+        display: flex;
+    }
+
+    .navlist{
+        display: none;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navlist ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navlist li {
+        text-align: center;
+
+    }
+
+    .navlist li a {
+        padding: .5rem 1rem;
+    }
+
+    .navlist.active{
+        display: flex;
+    }
+ 
 }
 
 .background {
