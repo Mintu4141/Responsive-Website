@@ -19,6 +19,15 @@
     align-items: center;
 }*/
 
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
 .logo img {
     margin-right: 44px;
     border: 1px solid white;
